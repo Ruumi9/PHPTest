@@ -1,4 +1,7 @@
 <?php
+// *Only support php ^8.0 +
+// Call func with named parameter
+
 
 function testNama($nama, $umur, $gender){
     echo "Nama : $nama";
@@ -6,6 +9,5 @@ function testNama($nama, $umur, $gender){
     echo "Gender : $gender";
     return;
 }
-// echo phpinfo();
 
 testNama(umur: 19, nama: "Rahmat", gender: "Pria");
